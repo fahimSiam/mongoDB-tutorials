@@ -61,6 +61,6 @@ app.post("/api/create", async (req, res) => {
   res.json({ status: "ok" });
 });
 
-app.listen(13371, "127.0.0.1", () => {
-  console.log("Server up");
+app.listen(3000, "localhost", () => {
+  console.log("Server up in port 3000");
 });
